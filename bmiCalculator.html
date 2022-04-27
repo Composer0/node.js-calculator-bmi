@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>Metric BMI Calculator</h1>
+    <form action="/" method="post">
+        <!-- above sends data to the home page route we are on. Can be left off, but this improves clarity. -->
+        <input type="text" name="num1" placeholder="weight in kilograms">
+        <input type="text" name="num2" placeholder="height in centimeters">
+        <button id="metric" type="submit" name="Submit">Calculate BMI</button>
+    </form>
+
+    <h1>American BMI Calculator</h1>
+    <form action="/" method="post">
+        <!-- above sends data to the home page route we are on. Can be left off, but this improves clarity. -->
+        <input type="text" name="num3" placeholder="weight in lbs">
+        <input type="text" name="num4" placeholder="height in inches">
+        <button id="american" type="submit" name="Submit">Calculate BMI</button>
+    </form>
+    
+
+</body>
+</html>
